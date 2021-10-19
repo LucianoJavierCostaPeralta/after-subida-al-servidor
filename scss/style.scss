@@ -1,0 +1,64 @@
+@import './base/reset';
+
+body{
+    background-color : rgb(16, 29, 63);
+}
+
+h1{
+    color: #fff;
+}
+
+.navbar {
+    background-color: #691f59;
+}
+
+.card{
+    background-color:transparent;
+    border : none ;
+    color: #fff;
+}
+
+.main{
+    padding-top: 5rem ;
+}
+
+.navbar-nav{
+
+    .nav-item{
+
+        .nav-link{
+
+            transition: all 0.5s;
+
+            &:hover{
+                color: black;
+                background-color: #13a4a4;
+                border-radius: 8px;
+            }
+        }
+    }
+}
+
+
+.footer{
+    background-color: rgb(143, 51, 97);
+    
+    .container{
+
+        .row{
+
+            a { 
+                text-decoration: none;
+                color: #fff;
+                font-size: 12px;
+
+                transition : all 0.5s;
+
+                &:hover{
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
